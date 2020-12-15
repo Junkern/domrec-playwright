@@ -15,7 +15,7 @@ class PlaywrightRecorder {
     await this.page.addInitScript(this.loadControllerScript());
   }
   loadDOMRecordingScript() {
-    const filePath = path.join(__dirname, '..', 'node_modules', 'domrec-core', 'dist', 'recording.js')
+    const filePath = path.join(__dirname, 'assets', 'recording.js')
     return fs.readFileSync(filePath, 'utf-8')
   }
   loadControllerScript() {
