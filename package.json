@@ -1,6 +1,6 @@
 {
   "name": "domrec-playwright",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Playwright package to use domrec-core to record DOM changes",
   "main": "src/index.js",
   "scripts": {
